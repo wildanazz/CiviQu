@@ -3,6 +3,8 @@ CiviQu dibuat dengan menggunakan django sebagai web framework dan python sebagai
 Disini saya akan menjelaskan tutorial cara menjalankan web tersebut. Dibawah ini merupakan requirements 
 yang dibutuhkan dan steps yang harus diikuti agar bisa menjalankan web tersebut di local server. 
 
+**LINK HEROKU : http://civiqu.herokuapp.com/**
+
 Requirements:
 1. Command prompt atau command line lainnya
 2. Python 3.6
