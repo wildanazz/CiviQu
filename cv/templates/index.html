@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title> CiviQu </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="CiviQu (Tugas Personal)"/>
+		<!-- Font -->
+		<link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300'/>
+		<link type='text/css' rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" >
+		<!-- Project CSS -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"/>
+		<!-- Icon CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- favicon -->
+		<link rel="icon" href="{% static 'favicon.ico' %}">
+	</head>
+	<body>
+			<header class="header-fixed">
+					<div class="header-limiter">
+						<h1><a href="#">Civi<span>Qu</span></a></h1>
+					</div>
+					<div class="header-fixed-placeholder"></div>
+				</header>
+		<div id="cv" class="instaFade">
+			<div class="mainDetails">
+				<!-- picture -->
+				<div id="picture" class="quickFade">
+					<img src="{% static 'images/wildan.jpg' %}" alt="Wildan Aziz">
+				</div>
+				<!-- name -->
+				<div id="name">
+					<h1 class="quickFade delayTwo">Muhammad Wildan Aziz</h1>
+					<h2 class="quickFade delayThree">Computer Science</h2>
+				</div>
+				<div class="clear"></div>
+				<!-- Tautan -->
+				<div id="contactDetails" class="quickFade delayFour">
+					<a href="https://twitter.com/wildanazz" target="_blank" title="Twitter"><img src="{% static 'images/twitter.png' %}" alt="Twitter"></a>
+					<a href="https://web.skype.com/en/?intcmp=accountweb-_-uktrybeta" target="_blank" title="Skype"><img src="{% static 'images/skype.png' %}" alt="Skype"></a>
+					<a href="https://web.facebook.com/Wildanazzzz" target="_blank" title="Facebook"><img src="{% static 'images/facebook.png' %}" alt="Facebook"></a>
+					<a href="https://www.linkedin.com/in/muhammad-wildan-aziz-236aa7159/" target="_blank" title="Linkedin"><img src="{% static 'images/linkedin.png' %}" alt="Linkedin"></a>
+					<a href="https://github.com/wildanazz" target="_blank" title="Github"><img src="{% static 'images/github.png' %}" alt="Github"></a>
+				</div>
+			</div>
+			<div id="mainArea" class="quickFade delayFive">
+				<!-- Section Personal Profile -->
+				<section>
+						<div class="sectionTitle">
+							<h1>Personal Profile:</h1>
+						</div>
+						<div class="sectionContent">
+							<div class="row">
+								<p class="col-sm-4">E-mail:</p>
+								<p>wildanazzwa@gmail.com</p>
+							</div>
+							<div class="row">
+								<p class="col-sm-4">Phone:</p>
+								<p>+6281377770357</p>
+							</div>
+							<div class="row">
+								<p class="col-sm-4">Address:</p>
+								<p>Griya Depok Asri Blok F6 No.1</p>
+							</div>
+							<div class="row">
+								<p class="col-sm-4">Location:</strong></p>
+								<p>Indonesia</p>
+							</div>
+							<div class="row">
+								<p class="col-sm-4">Status:</strong></p>
+								<p>Single</p>
+							</div>
+						</div>
+					<div class="clear"></div>
+				</section>
+				<!-- Section Education -->
+				<section>
+					<div class="sectionTitle">
+						<h1>Education:</h1>
+					</div>
+					<div class="sectionContent">
+						<article>
+							<h2>Elementary School</h2>
+							<p> SDN 5, Depok, Jawa Barat (2004 – 2010) </p>
+						</article>
+					</div>
+					<div class="sectionContent">
+						<article>
+							<h2>Junior High School</h2>
+							<p> SMPN 6, Depok, Jawa Barat (2010 – 2013) </p>
+						</article>
+					</div>
+					<div class="sectionContent">
+						<article>
+							<h2>Senior High School</h2>
+							<p> SMA SEMESTA BBS, Semarang, Jawa Tengah (2013 – 2016) </p>
+						</article>
+					</div>
+					<div class="sectionContent">
+						<article>
+							<h2>University</h2>
+							<p> University Of Indonesia, Depok, Jawa Barat (2016 – now)</p>
+						</article>
+					</div>
+					<div class="clear"></div>
+				</section>
+				<!-- Section Skills -->
+				<section>
+					<div class="sectionTitle">
+						<h1>Skills:</h1>
+					</div>
+					<div class="sectionContent">
+						<img src="{% static 'images/html.png' %}" alt="html" >
+						<img src="{% static 'images/css.png' %}" alt="css">
+						<img src="{% static 'images/javascript.png' %}" alt="javascript">
+						<img src="{% static 'images/python.png' %}" alt="python">
+						<img src="{% static 'images/java.png' %}" alt="java">
+						<img src="{% static 'images/php.png' %}" alt="php">
+					</div>
+					<div class="clear"></div>
+				</section>
+			</div>
+		</div>
+		<!-- JavaScript -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-3753241-1");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				var showHeaderAt = 150;
+				var win = $(window),
+						body = $('body');				
+				if(win.width() > 600){
+					win.on('scroll', function(e){
+						if(win.scrollTop() > showHeaderAt) {
+							body.addClass('fixed');
+						}
+						else {
+							body.removeClass('fixed');
+						}
+					});
+				}
+			});
+		</script>
+		<footer class="footer">
+				<small class="copyright">
+				Created with
+				<i class="fa fa-heart" aria-hidden="true"></i>
+				by
+				<p>Muhammad Wildan Aziz</p>
+				</small>
+			</footer>
+	</body>
+</html>
